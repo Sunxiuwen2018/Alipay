@@ -24,5 +24,5 @@ class AlipayConfig(object):
     # 字符编码格式
     charset = "utf-8"
 
-    # 支付宝网关
+    # 支付宝网关(如果是线上环境的话, dev 这三个字去掉即可)
     gateway_url = "https://openapi.alipaydev.com/gateway.do"
